@@ -42,5 +42,3 @@ password = input("Enter password: ")
 
 if not validate_email(email):
     print("Invalid email format")
-
-elif not validate_password_
