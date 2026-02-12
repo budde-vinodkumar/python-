@@ -20,13 +20,6 @@ class BankAccount:
         print("Balance:", self.balance)
 
 
-# Child class (Inheritance)
-class SavingsAccount(BankAccount):
-    def withdraw(self, amount):     # Polymorphism
-        if amount > 10000:
-            print("Withdrawal limit exceeded")
-        else:
-            super().withdraw(amount)
 
 
 # Creating object
