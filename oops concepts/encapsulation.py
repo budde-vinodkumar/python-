@@ -8,3 +8,6 @@ class Student:
 
 s = Student("Amit", 85)
 s.display()
+
+
+                
