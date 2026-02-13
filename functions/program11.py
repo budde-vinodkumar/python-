@@ -7,3 +7,5 @@ def reverse_num(n):
 
 n = int(input())
 print(reverse_num(n))
+print(reverse_num(1234))    
+print(reverse_num(56789))
