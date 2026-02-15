@@ -14,3 +14,5 @@ for num in arr:
         count -= 1
 
 print("Majority element:", candidate)
+print("Count of majority element:", count)
+print("Total occurrences of majority element:", arr.count(candidate))
