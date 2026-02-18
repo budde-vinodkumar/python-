@@ -15,6 +15,8 @@ temp_list = numbers.copy()
 temp_list.clear()
 
 print(numbers.index(30))
+print(numbers.count(20))
+print(numbers.count(100))
 
 numbers.append(30)
 print(numbers.count(30))
