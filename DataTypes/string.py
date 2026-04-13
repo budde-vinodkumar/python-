@@ -1,6 +1,10 @@
-a="vinnu"
-b="vinnu"
-print(a[0])         
-print(a.endswith("u"))    # check if string ends with 'u'
-print(a.isalpha())  # check if all characters are alphabetic
-print(a.isdigit())  # check if all characters are digits
+string =("Hello, World!"
+         "This is a string.")
+print(string)
+string2 = "Hello, " \
+          "World!"
+print(string2)
+print(string[0])
+print(string[1])    
+print(string[2])
+print(string[3])
